@@ -24,3 +24,96 @@ x</div>
 
     </body>
 </html>
+
+
+
+
+
+/* Chat containers for inbox page */
+/* https://www.w3schools.com/howto/howto_css_chat.asp */
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+/* Clear floats */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Style images */
+.container img {
+    height: 75%;
+    width: 75%;
+}
+
+/* Style the right image */
+
+/* Style time text */
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+    float: left;
+    color: #999;
+}
+
+
+
+
+
+
+
+/* fashpopo */
+
+#better{
+    text-align: center;
+    font-family: fantasy;
+    
+    
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: auto;
+}
+
+.container>div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container>div>*{
+    
+
+}
+
+.container>div>button{
+    width: 50%;
+}
+#first {
+    width: 200px;
+    height: 300px;
+}
+#second {
+    width: 200px;
+    height: 300px;
+}
